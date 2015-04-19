@@ -2546,7 +2546,7 @@ body, .ionic-body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  color: #ff8b97;
+  color: #000000;
   word-wrap: break-word;
   font-size: 14px;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
@@ -2776,7 +2776,7 @@ cite {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #ff8b97;
+  color: #000000;
   font-weight: 500;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   line-height: 1.2; }

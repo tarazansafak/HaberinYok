@@ -31,11 +31,32 @@ myApp.controller('BrowseCtrl', function($scope, $http, $ionicPopup, $rootScope, 
 
     $scope.cardSwipedRight = function(index) {
 
+
+ $http.get($scope.cards[index].realNewsURL).success(function(data) {
+     var  x = $(data).find("article");
+     $(x).find("script").remove();
+
+       var myPopup = $ionicPopup.show({
+         subTitle: x.text(),
+         scope: $scope,
+         buttons: [
+           { text: 'Tamam' }
+         ]
+       });
+
+
+    console.log(x.text());
+
+    })
+    .error(function(data) {
+    console.log("ERROR: " + data);
+    });
+
         return true;
     }
 
     $scope.onDoubletap = function(index) {
-
+      
     }
 
     $scope.cardTouch = function(index) {
@@ -47,7 +68,8 @@ myApp.controller('BrowseCtrl', function($scope, $http, $ionicPopup, $rootScope, 
     }
 
     $scope.onTap = function(index) {
-        window.open($scope.cards[index].realNewsURL , '_system', 'location=yes');
+window.open($scope.cards[index].realNewsURL , '_system', 'location=yes');
+
     }
 
     $scope.cardDestroyed = function(index) {
