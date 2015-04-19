@@ -56,7 +56,7 @@ myApp.controller('BrowseCtrl', function($scope, $http, $ionicPopup, $rootScope, 
     }
 
     $scope.onDoubletap = function(index) {
-      
+      //  window.open($scope.cards[index].realNewsURL , '_system', 'location=yes');
     }
 
     $scope.cardTouch = function(index) {
@@ -68,8 +68,7 @@ myApp.controller('BrowseCtrl', function($scope, $http, $ionicPopup, $rootScope, 
     }
 
     $scope.onTap = function(index) {
-window.open($scope.cards[index].realNewsURL , '_system', 'location=yes');
-
+//window.open($scope.cards[index].realNewsURL , '_system', 'location=yes');
     }
 
     $scope.cardDestroyed = function(index) {
