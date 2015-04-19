@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b924d4f22e90f2fd16b4061d071c57f223157377">
+        <dex dex="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\pre-dexed\debug\classes-98f4a056fee5952fdf81c9ca9641d0f911d9edfc.jar" />
+    </item>
+    <item
+        jar="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\exploded-aar\android.cordova-plugin-crosswalk-webview\modagusta842234-xwalk_core_library\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6eaaa8fe19fcb20a8abf5cd0ab61e5e9f1cefd4a">
+        <dex dex="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\pre-dexed\debug\classes-06dc6f5bb4796b1b99f49aadc7bf08acd608f3a2.jar" />
+    </item>
+    <item
+        jar="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\exploded-aar\android.cordova-plugin-crosswalk-webview\modagusta842234-xwalk_core_library\unspecified\debug\libs\xwalk_core_library_java_app_part.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a05795cb25eff13c0823fd5e25615f9b70af47b">
+        <dex dex="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\pre-dexed\debug\xwalk_core_library_java_app_part-ff4bdcab19e124e02e42a5fbd98f6b7e00c673ed.jar" />
+    </item>
+    <item
+        jar="E:\Projects\HaberinYok\modagusta\platforms\android\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\pre-dexed\debug\google-play-services-afb61c831b74433082c3ce83f0c45b8d908069c9.jar" />
+    </item>
+    <item
+        jar="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\exploded-aar\android.cordova-plugin-crosswalk-webview\modagusta842234-xwalk_core_library\unspecified\debug\libs\xwalk_core_library_java_library_part.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c6584826061e160f0252c0c05e45fd5db70c6ba">
+        <dex dex="E:\Projects\HaberinYok\modagusta\platforms\android\build\intermediates\pre-dexed\debug\xwalk_core_library_java_library_part-ffbd0329d3d0d9a94894407bae14b312242c5dad.jar" />
+    </item>
+
+</items>

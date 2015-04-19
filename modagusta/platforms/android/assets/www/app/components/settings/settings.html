@@ -1,0 +1,14 @@
+<ion-view title="About">
+    <ion-content>
+        <div class="list">
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Select Thema
+                </div>
+                <select id="themaSelection" ng-model="thema"  ng-change="themeChange()" ng-options="item as item.name for item in themas"></select>
+
+            </label>
+        </div>
+    </ion-content>
+</ion-view>

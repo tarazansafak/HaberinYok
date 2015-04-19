@@ -1,0 +1,24 @@
+
+<link href="css/cards.css" rel="stylesheet">
+
+<ion-nav-view view-title="Browse">
+    <ion-pane>
+        <td-cards>
+            <td-card id="td-card" ng-repeat="card in cards" on-destroy="cardDestroyed($index)"
+                     on-swipe-left="cardSwipedLeft($index)" on-swipe-right="cardSwipedRight($index)"
+                     on-partial-swipe="cardPartialSwipe(amt)" on-doubletap="onDoubletap($index)" on-tap="onTap($index)" on-release="onRelease()"  on-touch="cardTouch($index)">
+
+                <div class="title"><center> {{card.title}}</center>
+
+                </div>
+                <div class="image">
+                    <div class="no-text overlayBox"><div class="noBox boxed">Salla</div></div>
+                    <img ng-src="{{card.image}}">
+                    <div class="yes-text overlayBox"><div class="yesBox boxed" id="centerMe">Guzel</div></div>
+                </div>
+            </td-card>
+
+        </td-cards>
+
+    </ion-pane>
+</ion-nav-view>

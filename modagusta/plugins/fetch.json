@@ -1,0 +1,54 @@
+{
+    "org.apache.cordova.inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.inappbrowser"
+        }
+    },
+    "nl.x-services.plugins.socialsharing": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+            "subdir": "."
+        }
+    },
+    "com.danielcwilson.plugins.googleanalytics": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/danwilson/google-analytics-plugin.git",
+            "subdir": "."
+        }
+    },
+    "com.google.playservices": {
+        "source": {
+            "type": "registry",
+            "id": "com.google.playservices@19.0.0"
+        }
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-crosswalk-webview": {
+        "source": {
+            "type": "local",
+            "path": "engine\\cordova-crosswalk-engine-c0.7.1"
+        }
+    },
+    "org.apache.cordova.splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.splashscreen"
+        }
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apache/cordova-plugin-whitelist.git",
+            "subdir": "."
+        }
+    }
+}

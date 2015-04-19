@@ -1,0 +1,80 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar   align-title="center" class="bar-dark">
+            <ion-nav-buttons side="left">
+                <button class="button button-icon icon ion-navicon" menu-toggle="left">
+                </button>
+                <div class="h1 title"><img src="img/modagusta-bar.png"/></div>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+
+    <ion-side-menu width="myWidthValue + 200" side="left" enable-menu-with-back-views="false">
+        <div class="col col-center">
+            <ion-header-bar class="bar-stable">
+                <center>
+                    <h1 class="title">Menu</h1>
+                </center>
+
+            </ion-header-bar>
+        </div>
+
+        <ion-content>
+            <ion-list>
+<center>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnGenel()">
+        Genel
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnGundem()">
+        Gundem
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnSpor()">
+        Spor
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnAsayis()">
+        Asayis
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnSiyaset()">
+        Siyaset
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnEkonomi()">
+        Ekonomi
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnEgitim()">
+        Egitim
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnSaglik(selection)">
+        Saglik
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnTeknoloji(selection)">
+        Teknoloji
+    </button>
+    <br>
+    <button style="margin-top: 5pt; width:70%" class="button button-positive" data-ng-click="btnMagazin(selection)">
+        Magazin
+    </button>
+
+    <br>
+    <br><a  href="#" onclick="window.open(encodeURI('http://www.google.com/'), '_system')">haberinyok@gmail.com</a>
+
+</center>
+
+                </ion-item>
+            </ion-list>
+
+        </ion-content>
+    </ion-side-menu>
+
+
+
+</ion-side-menus>
